@@ -1,0 +1,29 @@
+{
+    "Company/Shop/Restaurant Name": null,
+    "Address": "VIA EMILIA 9, 1920 16TH ST, MIAMI BEACH, FL 33139",
+    "Total Amount": 66.7,
+    "Subtotal": 61.8,
+    "Tax Amount": 5.1,
+    "Line Items": [
+        {
+            "Quantity": 1,
+            "Description": "Tagliatella al Ragu\u2019",
+            "Unit Price": 14.9,
+            "Total": 14.9
+        },
+        {
+            "Quantity": 1,
+            "Description": "Cappellacci Di Zucca",
+            "Unit Price": null,
+            "Total": 18.9
+        },
+        {
+            "Quantity": 1,
+            "Description": "Stufato Al Latte Di Ravenna",
+            "Unit Price": null,
+            "Total": 22.9
+        }
+    ],
+    "Date of Purchase": "2017-04-27T18:21:59",
+    "Payment Method": "Cash"
+}

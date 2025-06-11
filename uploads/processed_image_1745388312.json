@@ -1,0 +1,65 @@
+{
+    "Company/Shop/Restaurant Name": "Katana Sushi",
+    "Address": "2816 Hewitt Ave Everett, WA 96201",
+    "Total Amount": 143.71,
+    "Subtotal": 131.0,
+    "Tax Amount": 12.71,
+    "Line Items": [
+        {
+            "Quantity": 1,
+            "Description": "Hamachi Collar",
+            "Unit Price": 12.0,
+            "Total": 12.0
+        },
+        {
+            "Quantity": 1,
+            "Description": "Mega Poke Bow!",
+            "Unit Price": 17.0,
+            "Total": 17.0
+        },
+        {
+            "Quantity": 1,
+            "Description": "Hamachi - Sashimi",
+            "Unit Price": 12.0,
+            "Total": 12.0
+        },
+        {
+            "Quantity": 1,
+            "Description": "Maguro - Sashimi",
+            "Unit Price": 11.0,
+            "Total": 11.0
+        },
+        {
+            "Quantity": 1,
+            "Description": "Salmon - Sashimi",
+            "Unit Price": 10.0,
+            "Total": 10.0
+        },
+        {
+            "Quantity": 3,
+            "Description": "Sockeye Salmon - Sashimi",
+            "Unit Price": 12.0,
+            "Total": 36.0
+        },
+        {
+            "Quantity": 1,
+            "Description": "Hamachi Japapeno",
+            "Unit Price": 12.0,
+            "Total": 12.0
+        },
+        {
+            "Quantity": 1,
+            "Description": "Salmon Collar",
+            "Unit Price": 10.0,
+            "Total": 10.0
+        },
+        {
+            "Quantity": 1,
+            "Description": "Escolar - Sashimi",
+            "Unit Price": 11.0,
+            "Total": 11.0
+        }
+    ],
+    "Date of Purchase": "05/11/18",
+    "Payment Method": null
+}

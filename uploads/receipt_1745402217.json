@@ -1,0 +1,47 @@
+{
+    "Company/Shop/Restaurant Name": "Walgreens",
+    "Address": "191 E 3RD AVE, SAN MATEO, CA 94401",
+    "Total Amount": 29.53,
+    "Subtotal": 27.6,
+    "Tax Amount": 1.93,
+    "Line Items": [
+        {
+            "Quantity": 8,
+            "Description": "RED Se ENRGY DRNK CNS",
+            "Unit Price": 0.36,
+            "Total": 2.88
+        },
+        {
+            "Quantity": 6,
+            "Description": "NAB OREO CRIES C/PK",
+            "Unit Price": 0.46,
+            "Total": 2.69
+        },
+        {
+            "Quantity": 2,
+            "Description": "DORITOS NACHO",
+            "Unit Price": 1.0,
+            "Total": 2.0
+        },
+        {
+            "Quantity": 1,
+            "Description": "F/LAYS REGULAR",
+            "Unit Price": 2.19,
+            "Total": 2.19
+        },
+        {
+            "Quantity": 3,
+            "Description": "SCOTCH BRITE H/D KITCHN SPONGE",
+            "Unit Price": 1.59,
+            "Total": 4.79
+        },
+        {
+            "Quantity": 1,
+            "Description": "PALMOLIVE DISH OXI POWER",
+            "Unit Price": 1.49,
+            "Total": 1.49
+        }
+    ],
+    "Date of Purchase": "2023-03-28T13:10:00",
+    "Payment Method": "VISA ACCT"
+}
