@@ -32,6 +32,15 @@ from receipt_data_analysis import ReceiptAnalyzer
 app = Flask(__name__)
 CORS(app)
 
+from urllib.parse import quote_plus
+
+username = "kesavamattupalli"
+password = "Kesava@2003"
+
+# URL encode the credentials
+encoded_username = quote_plus(username)
+encoded_password = quote_plus(password)
+
 # # MongoDB Configuration
 # client = MongoClient('mongodb://localhost:27017/')
 # db = client['image_analysis_db']
@@ -39,7 +48,7 @@ CORS(app)
 
 
 # Replace with your Atlas connection string
-MONGO_URI = "mongodb+srv://kesavamattupalli:Kesava@2003@kesavacluster.owtqfcd.mongodb.net/"
+MONGO_URI = "mongodb+srv://{encoded_username}:{encoded_password}@kesavacluster.owtqfcd.mongodb.net/retryWrites=true&w=majority"
 
 client = MongoClient(MONGO_URI)
 db = client['image_analysis_db']
