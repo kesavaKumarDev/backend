@@ -32,8 +32,16 @@ from receipt_data_analysis import ReceiptAnalyzer
 app = Flask(__name__)
 CORS(app)
 
-# MongoDB Configuration
-client = MongoClient('mongodb://localhost:27017/')
+# # MongoDB Configuration
+# client = MongoClient('mongodb://localhost:27017/')
+# db = client['image_analysis_db']
+# fs = gridfs.GridFS(db)
+
+
+# Replace with your Atlas connection string
+MONGO_URI = "mongodb+srv://kesavamattupalli:Kesava@2003@kesavacluster.owtqfcd.mongodb.net/"
+
+client = MongoClient(MONGO_URI)
 db = client['image_analysis_db']
 fs = gridfs.GridFS(db)
 
