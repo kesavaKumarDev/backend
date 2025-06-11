@@ -3,7 +3,7 @@ services:
   name: backend-service
   env: python
   buildCommand: ""
-  startCommand: gunicorn App1:app
+  startCommand: gunicorn app:app
   envVars:
     key: FLASK_ENV
     value: production
